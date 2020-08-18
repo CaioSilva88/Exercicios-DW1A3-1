@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Exercícios 2 - Curriculum vitae</title> 
+        <style type = "text/css;">.upper{text-transform: uppercase;}.vermelho{color: red;}</style>
+    </head>
+        <body>
+            <h1 id = "top">Exercícios 2 - Curriculum vitae (listas e links)</h1>
+            <h2 id = "Menu">Menu</h2>
+            <p><a href="#Dados pessoais">Dados pessoais</a></p>
+            <p><a href="#Objetivo">Objetivo</a></p>
+            <p><a href="#Formação acadêmica">Formação acadêmica</a></p>
+            <p><a href="#Experiência Profissional"></a></p>
+            <p><a href="#Atividades Complementares">Atividades Complementares</a></p>
+                <p><a href="Idioma"></a></p>
+                
+            <h2 id = "Dados pessoais">Dados pessoais</h1>
+            <hr>
+                <p><em>Nome: Gabriel Baptista Bertholin</em></p>
+                <p><em>E-mail: <a href="mailto:gabrielbertholin@gmail.com">gabrielbertholin@gmail.com</a></em></p>
+                <p><em>Github: <a href="https://github.com/ghol1n" target="_blank">Meu GitHub</a></em></p>
+            <h2 id = "Objetivo">Objetivo</h2>
+            <hr width = 100%>
+                <p>Tenho o objetivo de trabalhar nas IBVS em funções relacionadas a tecnologia afim de ser útil</p>
+            <h2 id = "Formação acadêmica">Formação acadêmica</h2>
+                <hr>
+                <ul>
+                    <li>Instituto de Educação José de Paiva Netto (IEJPN)</li>
+                    <li>Instituto Federal de São Paulo (IFSP)</li>
+                </ul>
+            <h2 id = "Atividades Complementares">Atividades Complementares</h2>
+                <hr>
+                    <ul>
+                        <li>Curso 1</li>
+                        <li>Curso 2</li>
+                    </ul>
+            <h2 id = "Idioma">Idioma</h2>
+            <hr>
+                    <ul>
+                        <li>Inglês <ul>
+                            <li>Escreve bem</li>
+                            <li>Lê bem</li>
+                            <li>Compreende bem</li>
+                            <li>Fala regular</li>
+                        </ul></li>
+                        <li>Português<ul>
+                            <li>Escreve bem</li>
+                            <li>Lê bem</li>
+                            <li>Compreende bem</li>
+                            <li>Fala bem</li>
+                        </ul></li>
+
+                    </ul>
+
+
+<p><a href="#top"></a></p>
+
+        </body>
+</html>
