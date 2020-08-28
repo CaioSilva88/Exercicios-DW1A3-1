@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <html lang = "pt-br">
+        <head>
+            <meta charset="utf-8"/>
+            <title>Formulário</title>
+        </head>
+        <body>
+            <p>Pesquisa:</p>
+<input type="search" name="search" placeholder="Enter" />
+<input type="submit" value="Search" />
+            <fieldset>
+                <legend>Formulário</legend>
+            <p>Escolha sua plataforma de videogame favorita:                
+                <br>
+                    <input type="radio" name="console" value="Xbox" /> Xbox
+                    <input type="radio" name="console" value="Playstation"/> Playstation
+                    <input type="radio" name="console" value="Nintendo"/> Nintendo
+            </p>
+            <p>Selecione sua(s) rede(s) de fastfood preferida(s):
+                <br>
+                    <input type="checkbox" name="fastfood" value="mcdonalds"/> MC Donalds
+                    <input type="checkbox" name="fastfood" value="burguerking"/> Burguer King
+                    <input type="checkbox" name="fastfood" value="outro"/> Outro(s)
+            </p>
+            <p>O que você bebe no fastfood?</p>
+                <select name="bebida">
+                    <option value="Refrigerante">Refrigerante</option> 
+                    <option value="Suco">Suco</option>
+                    <option value="Água">Água</option>
+                    <option value="Outro">Outro</option>
+                </select>
+
+                <P><label>Idade: <input type="text" name="age" /></label></P>
+                <p>Gênero:
+                <input id="female" type="radio" name="gender" value="f">
+                <label for="female">Feminino</label>
+                <input id="male" type="radio" name="gender" value="m">
+                <label for="male">Masculino</label></p>
+                <p><label for="username">Data de nascimento:</label>
+<input type="date" name="depart" />
+<input type="submit" value="Enviar" /></p>
+
+
+                <p><input type="submit" name="subscribe" value="Enviar dados formulário"/></p>
+                
+            </fieldset>
+               <fieldset>
+                   <legend>Comentário:</legend>
+                <p>Usuário:
+                    <input type="text" name="username" size="15" maxlength="30"/></p>
+                <p>Senha:
+                    <input type="text" name="password" size="15" maxlength="30"/></p>
+                <p>Insira um comentário:</p>
+                    <textarea name="comentario" cols="20" rows="4">Escreva aqui...</textarea>
+                <p>Insira uma foto:</p>
+                    <input type="file" name="user-picture" /><br>
+                    <input type="submit" value="Upload" />
+                </fieldset>
+                <p>Insira seu e-mail para receber nossa newsletter:</p>
+                    <input type="text" name="email" />
+                    <input type="submit" name="subscribe" value="Inscreva-se"/>
+
+                
+        </body>
+
+
+
+
+
+
+    </html>
