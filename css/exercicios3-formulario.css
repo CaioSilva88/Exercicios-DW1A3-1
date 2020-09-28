@@ -1,0 +1,17 @@
+body{
+    background-color: paleturquoise;
+}
+
+p{
+    margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+h1{
+    margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+img {
+    border-radius: 8px;
+  }
