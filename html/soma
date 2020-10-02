@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+    
+<script>
+var a = prompt("Digite um número: ");
+var b = prompt("Digite outro número: ");
+
+function soma(numero1, numero2) { 
+    return(parseInt(numero1) + parseInt(numero2));
+}
+
+var c = soma(a,b);
+
+document.write(c);
+</script>
+
+
+</body>
+</html>
