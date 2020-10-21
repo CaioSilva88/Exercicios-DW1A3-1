@@ -1,0 +1,157 @@
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    font-family: 'roboto';
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+/* a[data-toggle="collapse"] {
+    position: relative;
+} */
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+@media (max-width: 768px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+}
+
+
+
+body {
+    /* font-family: 'Roboto', sans-serif; */
+    background: #fafafa !important;
+}
+
+p {
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999 !important;
+}
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: #042331;
+    color: #fff !important;
+    transition: all 0.3s;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 100vh;
+    
+    
+}
+
+#sidebar .sidebar-header {
+    text-align: center;
+    background: #042331;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    font-size: 22px;
+    line-height: 70px;
+    /* border-bottom: 1px solid black; */
+    
+}
+
+
+#sidebar ul p {
+    color: #fff !important;
+    
+
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    line-height: 45px;
+}
+#sidebar ul li a:hover {
+    /* color: #7386D5;
+    background: #fff; */
+    padding-left: 50px;
+    color: rgba(145, 145, 145);
+}
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #6d7fcc;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+#content {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.pessoa:hover{
+    font-size: 25px;
+}
+.post-8{
+    text-align: left
+}
+.post-8 ul {
+    list-style-type: none;
+}
+.navbar-logo{
+    color: #042331;
+    font-size: 50px;
+}
+.navbar-sublime:hover{
+    text-decoration: underline;
+}
+.navbar-logo.navbar-sublime:hover{
+    color: #042331;
+    font-size: 50px;
+    text-decoration: underline;
+}
+has-title{
+    color:#042331;
+}
+
+.box-header::after {
+    content:" ";
+    display: block;
+    margin: 0px;
+    border-top: 1px solid black;
+    background: none;
+    width: 100%;
+}
+.credits{
+        color: #042331;
+        font-size: 15px;
+        margin-left: 450px;
+}
+.footer-menu {
+	width: 100%;
+	display: block;
+	padding: 0;
+	min-height: 22px;
+	list-style: none;
+    text-align: center;
+    margin-left: 300px;
+    
+}
+	
