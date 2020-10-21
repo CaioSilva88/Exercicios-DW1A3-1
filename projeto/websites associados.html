@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="websites.js" ></script>
 
     <title>Index</title>
 
@@ -53,7 +54,7 @@
             <a href="https://www.filosofiaesoterica.com/"><i class="fas fa-home" style="margin-left: 30px;" ></i>   Home</a>
             </li>
             <li>
-                <a href="#"> <i class="fas fa-share-alt" style="margin-left: 30px;" ></i>   Nossos Websites Associados</a>
+                <a onclick="associados()"> <i class="fas fa-share-alt" style="margin-left: 30px;" ></i>   Nossos Websites Associados</a>
             </li>
             <li>
             </li>
@@ -69,7 +70,9 @@
             <li>
                 <a href="https://www.filosofiaesoterica.com/contact/"> <i class="fas fa-paper-plane" style="margin-left: 30px;" ></i>   Contato</a>
             </li>
-            <li><a onclick="mapas()"><i class="fas fa-arrows-alt-v"></i> Mapa do Site</a></li>
+            <li>
+                <a onclick="mapas()"><i class="fas fa-arrows-alt-v"  style="margin-left: 30px;" ></i> Mapa do Site</a>
+            </li>
         </ul>
     </nav>
 
@@ -95,17 +98,7 @@
         <div style="background: rgb(253, 253, 253);" >
 
 <ul>
-    <script>
-    function Mudarestado(el) {
-        var display = document.getElementById(el).style.display;
-        if (display == "none")
-            document.getElementById(el).style.display = 'block';
-
-        else
-            document.getElementById(el).style.display = 'none';
-      
-    }
-    </script>
+  
 
     <li> <p type="button" onclick="Mudarestado('HBlavatsky1')" style="outline: 0; "><a style="cursor: pointer;"><strong style="color:black;">• Helena Blavatsky (português)</strong></a></p>
     <div id="HBlavatsky1" style="display: none;">Este site fala sobre Helena Blavatsky, seus estudos e suas obras literárias. Está disponível na língua portuguesa.<br><a href="http://www.helenablavatsky.net/"><span style="color:#0000FF;">www.HelenaBlavatsky.net</span></br></a></div></li>
